@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <main>
-      HELLO ANGEL 🤌🏻
+      HELLO ANGELO 🤌🏻
     </main>
   );
 }
