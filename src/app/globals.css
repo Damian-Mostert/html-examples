@@ -5,17 +5,17 @@
 body {
   @apply bg-black text-white;
 }
-.animate {
-  @keyframes identifier {
-    from {
-      transform: translateX(-100px);
-    }
-    50% {
-      transform: translateX(100px);
-    }
-    to {
-      transform: translateX(-100px);
-    }
+@keyframes identifier {
+  from {
+    transform: translateX(-100px);
   }
+  50% {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(-100px);
+  }
+}
+.animate {
   animation: identifier 1s infinite;
 }
