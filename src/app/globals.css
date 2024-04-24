@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   @apply bg-black text-white;
+}
+.animate {
+  @keyframes identifier {
+    from {
+      transform: translateX(-100px);
+    }
+    50% {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(-100px);
+    }
+  }
+  animation: identifier 1s infinite;
 }
